@@ -6,6 +6,7 @@ This is a command line application to match applicants with qualifying loans.
 Example:
     $ python app.py
 """
+from qualifier.utils.fileio import write_to_csv
 import sys
 import fire
 import questionary
@@ -115,6 +116,7 @@ def save_qualifying_loans(qualifying_loans):
     # YOUR CODE HERE!
     
     # Check if there is 1 or more qualifying loans
+   # Check if there is 1 or more qualifying loans
     if(len(qualifying_loans)>0):
         print(f"You qualify for {len(qualifying_loans)} loan(s).")
         # collect user response on save results to CSV Yes/No?
@@ -122,14 +124,24 @@ def save_qualifying_loans(qualifying_loans):
         # save to csv scenario
         if(save_to_csv):
             print(f"Call function to save to csv")
+            result_path=questionary.text("Where would you like to save the CSV ?").ask()
+            result_path=result_path+"/bank_loans_list.csv"
+            print(result_path)
+            print("loans*****",qualifying_loans)
+            # call the write to csv fileio function
+            write_to_csv(result_path,qualifying_loans)
+
         # display results on the console screen.
         else:
             print("List of qualified bank loans below ")
             print(qualifying_loans)
     # No qualifying loans to list.
     else:
-        print("Based on the information provided there are no loan options available from the banks. Please check back for new fiancing options next month")
-
+        print()
+        print("********************************* SORRY ****************************************************")
+        print("Based on the information provided there are no loan options available from the banks. Please check back for new financing options next calendar month")
+        print("********************************************************************************************")
+        print()
 
 
 def run():
