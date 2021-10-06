@@ -129,7 +129,8 @@ def save_qualifying_loans(qualifying_loans):
             print(result_path)
             print("loans*****",qualifying_loans)
             # call the write to csv fileio function
-            write_to_csv(result_path,qualifying_loans)
+            # write_to_csv(result_path,qualifying_loans)
+            save_csv(result_path,qualifying_loans)
 
         # display results on the console screen.
         else:
@@ -142,6 +143,16 @@ def save_qualifying_loans(qualifying_loans):
         print("Based on the information provided there are no loan options available from the banks. Please check back for new financing options next calendar month")
         print("********************************************************************************************")
         print()
+
+
+def save_csv(path,list):
+    """ Function to write the results to a csv file. Utilized the module in fileio.py to write to the csv file.         
+
+    Args:
+        path , and list : the path to the save the file and list is the results that need to be saved in a csv.
+    """
+    write_to_csv(path,list)
+
 
 
 def run():
