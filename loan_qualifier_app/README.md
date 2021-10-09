@@ -61,7 +61,7 @@ If you select no, the list of qualifying loans will be displayed on the interfac
 
 If you select **Yes**, save the results in CSV file. The application will ask for the location to save the file.
 
-![Save List to CSV ](./6_Save_to_CSV.png)
+![Save List to CSV ](./images/6_Save_to_CSV.png)
 
 The application will display the path of the results file and exit.
 
