@@ -1,0 +1,336 @@
+   50  cd anaconda3
+   51  ls -l
+   52  conda 
+   53  conda list
+   54  python
+   55  ls -l
+   56  cat LICENSE.txt
+   57  Conda --version
+   58  conda
+   59  conda init zsh
+   60  conda init bash
+   61  echo #{SHELL}
+   62  echo # {SHELL}
+   63  cd bin
+   64  ls -l
+   65  cd ..
+   66  cd ..
+   67  ls -l
+   68  source ~/anaconda3/bin/activate
+   69  conda init
+   70  conda list
+   71  conda --version
+   72  conda update conda
+   73  conda create -n dev python=3.7 anaconda
+   74  conda activate dev
+   75  conda init zsh
+   76  python -m ipykernel install --user --name dev
+   77  conda install -c conda-forge nodejs
+   78  conda deactivate
+   79  open .
+   80  conda activate dev
+   81  jupyter lab
+   82  conda deactivate
+   83  conda activate dev
+   84  jupyter lab
+   85  pwd
+   86  ls -l
+   87  cd UCB
+   88  ls -l
+   89  cd ..
+   90  ls -l
+   91  cd .ssh
+   92  ls -l
+   93  cat id_rsa.pub
+   94  man tr
+   95  tr -d '\n' id_rsa.pub| pbcopy
+   96  pbcopy < id_rsa.pub
+   97  com.apple.Finder AppleShowAllFiles
+   98  com.apple.Finder AppleShowAllFiles
+   99  finder
+  100  anaconda
+  101  conda list
+  102  conda activate dev
+  103  ls -l
+  104  cd ..
+  105  ls -l
+  106  pwd
+  107  echo ${SHELL}
+  108  conda init zsh
+  109  conda deactivate
+  110  pwd
+  111  conda --version
+  112  pwd
+  113  cd UCB
+  114  ls -l
+  115  pwd
+  116  ls
+  117  mkdir Fintech_Workspace
+  118  ls
+  119  cd Fintech_Workspace
+  120  ls -l
+  121  ls
+  122  cd ..
+  123  pwd
+  124  cd ~
+  125  pwd
+  126  cd UCB/Fintech_Workspace/Python_Project
+  127  ls -
+  128  ls 
+  129  conda activate dev
+  130  ls 
+  131  python --version
+  132  code .
+  133  python hello_python.py
+  134  conda deactivate
+  135  code .
+  136  conda activate dev
+  137  ls -l
+  138  python M1L3.py
+  139  python M1L3.py
+  140  python M1L3.py
+  141  ls -l
+  142  cd ..
+  143  ls -l
+  144  cd ..
+  145  ls -l
+  146  cd Material
+  147  ls -l
+  148  cd 01_Hello_Variable_World
+  149  ls -l
+  150  cd Unsolved
+  151  ls -l
+  152  python hello_variable_world.py
+  153  /usr/bin/python3 /Users/aheeshnagraj/UCB/Material/01_Hello_Variable_World/Unsolved/hello_variable_world.py
+  154  /usr/bin/python3 /Users/aheeshnagraj/UCB/Material/01_Hello_Variable_World/Unsolved/hello_variable_world.py
+  155  /usr/bin/python3 /Users/aheeshnagraj/UCB/Material/01_Hello_Variable_World/Unsolved/hello_variable_world.py
+  156  /usr/bin/python3 /Users/aheeshnagraj/UCB/Material/01_Hello_Variable_World/Unsolved/hello_variable_world.py
+  157  /usr/bin/python3 /Users/aheeshnagraj/UCB/Material/01_Hello_Variable_World/Unsolved/hello_variable_world.py
+  158  /usr/bin/python3 /Users/aheeshnagraj/UCB/Fintech_Workspace/Python_Project/M1L3.py
+  159  /usr/bin/python3 /Users/aheeshnagraj/UCB/Fintech_Workspace/Python_Project/M1L3.py
+  160  /usr/bin/python3 /Users/aheeshnagraj/UCB/Fintech_Workspace/Python_Project/M1L3.py
+  161  /usr/bin/python3 /Users/aheeshnagraj/UCB/Fintech_Workspace/Python_Project/M1L3.py
+  162  /usr/bin/python3 /Users/aheeshnagraj/UCB/Fintech_Workspace/Python_Project/M1L3.py
+  163  /usr/bin/python3 /Users/aheeshnagraj/UCB/Fintech_Workspace/Python_Project/M1L3.py
+  164  /usr/bin/python3 /Users/aheeshnagraj/UCB/Fintech_Workspace/Python_Project/M1L3.py
+  165  /usr/bin/python3 /Users/aheeshnagraj/UCB/Material/02_Listing_Assets/Unsolved/listing_assets.py
+  166  /usr/bin/python3 /Users/aheeshnagraj/UCB/Material/02_Listing_Assets/Unsolved/listing_assets.py
+  167  /usr/bin/python3 /Users/aheeshnagraj/UCB/Material/02_Listing_Assets/Unsolved/listing_assets.py
+  168  /usr/bin/python3 /Users/aheeshnagraj/UCB/Material/02_Listing_Assets/Unsolved/listing_assets.py
+  169  /usr/bin/python3 /Users/aheeshnagraj/UCB/Material/02_Listing_Assets/Unsolved/listing_assets.py
+  170  /usr/bin/python3 /Users/aheeshnagraj/UCB/Material/02_Listing_Assets/Unsolved/listing_assets.py
+  171  /usr/bin/python3 /Users/aheeshnagraj/UCB/Material/03_The_401k_Shuffle/Unsolved/the_401k_shuffle.py
+  172  /usr/bin/python3 /Users/aheeshnagraj/UCB/Material/03_The_401k_Shuffle/Unsolved/the_401k_shuffle.py
+  173  /usr/bin/python3 /Users/aheeshnagraj/UCB/Material/03_The_401k_Shuffle/Unsolved/the_401k_shuffle.py
+  174  /usr/bin/python3 /Users/aheeshnagraj/UCB/Material/03_The_401k_Shuffle/Unsolved/the_401k_shuffle.py
+  175  /usr/bin/python3 /Users/aheeshnagraj/UCB/Material/03_The_401k_Shuffle/Unsolved/the_401k_shuffle.py
+  176  /usr/bin/python3 /Users/aheeshnagraj/UCB/Material/03_The_401k_Shuffle/Unsolved/the_401k_shuffle.py
+  177  /usr/bin/python3 /Users/aheeshnagraj/UCB/Material/03_The_401k_Shuffle/Unsolved/the_401k_shuffle.py
+  178  /usr/bin/python3 /Users/aheeshnagraj/UCB/Material/01_Conditional_Statement/Unsolved/conditional_statement.py
+  179  /usr/bin/python3 /Users/aheeshnagraj/UCB/Material/01_Conditional_Statement/Unsolved/conditional_statement.py
+  180  /usr/bin/python3 /Users/aheeshnagraj/UCB/Material/01_Conditional_Statement/Unsolved/conditional_statement.py
+  181  /usr/bin/python3 /Users/aheeshnagraj/UCB/Material/01_Conditional_Statement/Unsolved/conditional_statement.py
+  182  /usr/bin/python3 /Users/aheeshnagraj/UCB/Material/01_Conditional_Statement/Unsolved/conditional_statement.py
+  183  /usr/bin/python3 /Users/aheeshnagraj/UCB/Material/01_Conditional_Statement/Unsolved/conditional_statement.py
+  184  /usr/bin/python3 /Users/aheeshnagraj/UCB/Material/01_Conditional_Statement/Unsolved/conditional_statement.py
+  185  /usr/bin/python3 /Users/aheeshnagraj/UCB/Material/02_Nested_Conditionals/Unsolved/nested_conditionals.py
+  186  /usr/bin/python3 /Users/aheeshnagraj/UCB/Material/02_Nested_Conditionals/Unsolved/nested_conditionals.py
+  187  /usr/bin/python3 /Users/aheeshnagraj/UCB/Material/02_Nested_Conditionals/Unsolved/nested_conditionals.py
+  188  /usr/bin/python3 /Users/aheeshnagraj/UCB/Material/02_Nested_Conditionals/Unsolved/nested_conditionals.py
+  189  /usr/bin/python3 /Users/aheeshnagraj/UCB/Material/02_Nested_Conditionals/Unsolved/nested_conditionals.py
+  190  /usr/bin/python3 /Users/aheeshnagraj/UCB/Material/03_Split_Second_Homebuying/Unsolved/split_second_homebuying.py
+  191  /usr/bin/python3 /Users/aheeshnagraj/UCB/Material/03_Split_Second_Homebuying/Unsolved/split_second_homebuying.py
+  192  /usr/bin/python3 /Users/aheeshnagraj/UCB/Material/03_Split_Second_Homebuying/Unsolved/split_second_homebuying.py
+  193  /usr/bin/python3 /Users/aheeshnagraj/UCB/Material/03_Split_Second_Homebuying/Unsolved/split_second_homebuying.py
+  194  /usr/bin/python3 /Users/aheeshnagraj/UCB/Material/function.py
+  195  /usr/bin/python3 /Users/aheeshnagraj/UCB/Material/function.py
+  196  /usr/bin/python3 /Users/aheeshnagraj/UCB/Material/function.py
+  197  /usr/bin/python3 /Users/aheeshnagraj/UCB/Material/function.py
+  198  /usr/bin/python3 /Users/aheeshnagraj/UCB/Material/function.py
+  199  /usr/bin/python3 /Users/aheeshnagraj/UCB/Material/01_A_Definitive_Buy/Unsolved/a_definitive_buy.py
+  200  /usr/bin/python3 /Users/aheeshnagraj/UCB/Material/function.py
+  201  /usr/bin/python3 /Users/aheeshnagraj/UCB/Material/02_Returned_Goods/Unsolved/returned_goods.py
+  202  /usr/bin/python3 /Users/aheeshnagraj/UCB/Material/03_Split_Second_Homebuying_Part_2/Unsolved/split_second_part_2.py
+  203  /usr/bin/python3 /Users/aheeshnagraj/UCB/Material/03_Split_Second_Homebuying_Part_2/Unsolved/split_second_part_2.py
+  204  /usr/bin/python3 /Users/aheeshnagraj/UCB/Material/03_Split_Second_Homebuying_Part_2/Unsolved/split_second_part_2.py
+  205  /usr/bin/python3 /Users/aheeshnagraj/UCB/Material/03_Split_Second_Homebuying_Part_2/Unsolved/split_second_part_2.py
+  206  /usr/bin/python3 /Users/aheeshnagraj/UCB/Material/03_Split_Second_Homebuying_Part_2/Unsolved/split_second_part_2.py
+  207  /usr/bin/python3 /Users/aheeshnagraj/UCB/Material/03_Split_Second_Homebuying_Part_2/Unsolved/split_second_part_2.py
+  208  /usr/bin/python3 /Users/aheeshnagraj/UCB/Material/03_Split_Second_Homebuying_Part_2/Unsolved/split_second_part_2.py
+  209  /usr/bin/python3 /Users/aheeshnagraj/UCB/Material/03_Split_Second_Homebuying_Part_2/Unsolved/split_second_part_2.py
+  210  /usr/bin/python3 /Users/aheeshnagraj/UCB/Material/03_Split_Second_Homebuying_Part_2/Unsolved/split_second_part_2.py
+  211  /usr/bin/python3 /Users/aheeshnagraj/UCB/Material/for.py
+  212  /usr/bin/python3 /Users/aheeshnagraj/UCB/Material/for.py
+  213  /usr/bin/python3 /Users/aheeshnagraj/UCB/Material/for.py
+  214  /usr/bin/python3 /Users/aheeshnagraj/UCB/Material/for.py
+  215  /usr/bin/python3 /Users/aheeshnagraj/UCB/Material/for.py
+  216  /usr/bin/python3 /Users/aheeshnagraj/UCB/Material/for.py
+  217  /usr/bin/python3 /Users/aheeshnagraj/UCB/Material/for.py
+  218  /usr/bin/python3 /Users/aheeshnagraj/UCB/Material/for.py
+  219  /usr/bin/python3 /Users/aheeshnagraj/UCB/Material/principle.py
+  220  /usr/bin/python3 /Users/aheeshnagraj/UCB/Material/principle.py
+  221  /usr/bin/python3 /Users/aheeshnagraj/UCB/Material/principle.py
+  222  /usr/bin/python3 /Users/aheeshnagraj/UCB/Material/principle.py
+  223  /usr/bin/python3 /Users/aheeshnagraj/UCB/Material/principle.py
+  224  /usr/bin/python3 /Users/aheeshnagraj/UCB/Material/01_Racking_Up_The_Profit/Unsolved/racking_up_the_profit.py
+  225  /usr/bin/python3 /Users/aheeshnagraj/UCB/Material/01_Racking_Up_The_Profit/Unsolved/racking_up_the_profit.py
+  226  /usr/bin/python3 /Users/aheeshnagraj/UCB/Material/01_Racking_Up_The_Profit/Unsolved/racking_up_the_profit.py
+  227  /usr/bin/python3 /Users/aheeshnagraj/UCB/Material/Path.py
+  228  pwd
+  229  /usr/bin/python3 /Users/aheeshnagraj/UCB/Material/02_Pathways_to_Success_Part_1/Unsolved/pathways_to_success.py
+  230  /usr/bin/python3 /Users/aheeshnagraj/UCB/Material/02_Pathways_to_Success_Part_1/Unsolved/pathways_to_success.py
+  231  /usr/bin/python3 /Users/aheeshnagraj/UCB/Material/03_Pathways_to_Success_Part_2/Unsolved/pathways_to_success_part_2.py
+  232  pwd
+  233  /usr/bin/python3 /Users/aheeshnagraj/UCB/Material/03_Pathways_to_Success_Part_2/Unsolved/pathways_to_success_part_2.py
+  234  /usr/bin/python3 /Users/aheeshnagraj/UCB/Material/03_Pathways_to_Success_Part_2/Unsolved/pathways_to_success_part_2.py
+  235  /usr/bin/python3 /Users/aheeshnagraj/UCB/Material/03_Pathways_to_Success_Part_2/Unsolved/pathways_to_success_part_2.py
+  236  pwd
+  237  /usr/bin/python3 /Users/aheeshnagraj/UCB/Material/csvwrite.py
+  238  /usr/bin/python3 /Users/aheeshnagraj/UCB/Material/csv_write2.py
+  239  /usr/bin/python3 /Users/aheeshnagraj/UCB/Material/04_Automating_Equity_Rounds/Unsolved/automated_equity_rounds.py
+  240  /usr/bin/python3 /Users/aheeshnagraj/UCB/Material/04_Automating_Equity_Rounds/Unsolved/automated_equity_rounds.py
+  241  /usr/bin/python3 /Users/aheeshnagraj/UCB/Material/04_Automating_Equity_Rounds/Unsolved/automated_equity_rounds.py
+  242  /usr/bin/python3 /Users/aheeshnagraj/UCB/Material/1/Activities/06_Stu_Working_with_Dictionaries/Unsolved/dictionaries.py
+  243  /usr/bin/python3 /Users/aheeshnagraj/UCB/Material/1/Activities/06_Stu_Working_with_Dictionaries/Unsolved/dictionaries.py
+  244  /usr/bin/python3 /Users/aheeshnagraj/UCB/Material/1/Activities/06_Stu_Working_with_Dictionaries/Unsolved/dictionaries.py
+  245  /usr/bin/python3 /Users/aheeshnagraj/UCB/Material/1/Activities/06_Stu_Working_with_Dictionaries/Unsolved/dictionaries.py
+  246  /usr/bin/python3 /Users/aheeshnagraj/UCB/Material/1/Activities/06_Stu_Working_with_Dictionaries/Unsolved/dictionaries.py
+  247  /usr/bin/python3 /Users/aheeshnagraj/UCB/Material/1/Activities/06_Stu_Working_with_Dictionaries/Unsolved/dictionaries.py
+  248  /usr/bin/python3 /Users/aheeshnagraj/UCB/Material/1/Activities/06_Stu_Working_with_Dictionaries/Unsolved/dictionaries.py
+  249  /usr/bin/python3 /Users/aheeshnagraj/UCB/Material/1/Activities/06_Stu_Working_with_Dictionaries/Unsolved/dictionaries.py
+  250  /usr/bin/python3 /Users/aheeshnagraj/UCB/Material/1/Activities/06_Stu_Working_with_Dictionaries/Unsolved/dictionaries.py
+  251  /usr/bin/python3 /Users/aheeshnagraj/UCB/Material/2/Activities/05_Stu_Conditionals/Unsolved/conditionals.py
+  252  /usr/bin/python3 /Users/aheeshnagraj/UCB/Material/2/Activities/08_Ins_Loops/Solved/loops.py
+  253  /usr/bin/python3 /Users/aheeshnagraj/UCB/Material/2/Activities/08_Ins_Loops/Solved/loops.py
+  254  /usr/bin/python3 /Users/aheeshnagraj/UCB/Material/2/Activities/08_Ins_Loops/Solved/loops.py
+  255  /usr/bin/python3 /Users/aheeshnagraj/UCB/Material/2/Activities/09_Stu_Loops/Unsolved/loops.py
+  256  /usr/bin/python3 /Users/aheeshnagraj/UCB/Material/2/Activities/09_Stu_Loops/Unsolved/loops.py
+  257  /usr/bin/python3 /Users/aheeshnagraj/UCB/Material/2/Activities/09_Stu_Loops/Unsolved/loops.py
+  258  /usr/bin/python3 /Users/aheeshnagraj/UCB/Material/2/Activities/09_Stu_Loops/Unsolved/loops.py
+  259  /usr/bin/python3 /Users/aheeshnagraj/UCB/Material/2/Activities/09_Stu_Loops/Unsolved/loops.py
+  260  /usr/bin/python3 /Users/aheeshnagraj/UCB/Material/2/Activities/09_Stu_Loops/Unsolved/loops.py
+  261  /usr/bin/python3 /Users/aheeshnagraj/UCB/Material/2/Activities/09_Stu_Loops/Unsolved/loops.py
+  262  /usr/bin/python3 /Users/aheeshnagraj/UCB/Material/2/Activities/09_Stu_Loops/Unsolved/loops.py
+  263  /usr/bin/python3 /Users/aheeshnagraj/UCB/Material/2/Activities/09_Stu_Loops/Unsolved/loops.py
+  264  /usr/bin/python3 /Users/aheeshnagraj/UCB/Material/2/Activities/09_Stu_Loops/Unsolved/loops.py
+  265  /usr/bin/python3 /Users/aheeshnagraj/UCB/Material/2/Activities/09_Stu_Loops/Unsolved/loops.py
+  266  /usr/bin/python3 /Users/aheeshnagraj/UCB/Material/2/Activities/09_Stu_Loops/Unsolved/loops.py
+  267  /usr/bin/python3 /Users/aheeshnagraj/UCB/Material/2/Activities/09_Stu_Loops/Unsolved/loops.py
+  268  /usr/bin/python3 /Users/aheeshnagraj/UCB/Material/2/Activities/09_Stu_Loops/Unsolved/loops.py
+  269  /usr/bin/python3 /Users/aheeshnagraj/UCB/Material/2/Activities/09_Stu_Loops/Unsolved/loops.py
+  270  pwd
+  271  ls 
+  272  cd UCB
+  273  ls -l
+  274  cd Fintech_Workspace
+  275  ls 
+  276  cd ../Material
+  277  ls -l
+  278  cd UCB-VIRT-FIN-PT-09-2021-U-B.pdf
+  279  cd ..
+  280  ls -l
+  281  pwd
+  282  ls -l
+  283  cd Material
+  284  ls
+  285  cd Module\ 2
+  286  ls
+  287  cd Module\ 2\ Challenge
+  288  ls
+  289  cd Starter_Code
+  290  ls 
+  291  cd loan_check
+  292  ls 
+  293  cd loan_qualifier_app
+  294  ls -l
+  295  git status
+  296  git status
+  297  ls -l
+  298  cd ..
+  299  git status
+  300  ls -l
+  301  ls -l
+  302  cd loan_qualifier_app
+  303  ls -l
+  304  conda activate atmdev
+  305  ls -l
+  306  python app.py
+  307  ls -l
+  308  cd data
+  309  ls
+  310  ls -l
+  311  cd ..
+  312  python app.py
+  313  python app.py
+  314  python app.py
+  315  python app.py
+  316  python app.py
+  317  python app.py
+  318  python app.py
+  319  git status
+  320  git add app.py
+  321  git status
+  322  git add data
+  323  git status
+  324  git commit -m "added save_csv() to better organize the code"
+  325  git push
+  326  pwd
+  327  ls -l
+  328  cd ..
+  329  pwd
+  330  git status
+  331  git status
+  332  git add loan_qualifier_app
+  333  git status
+  334  git commit -m "Updated code documentation."
+  335  git push
+  336  ls
+  337  cd loan_qualifier_app
+  338  clear
+  339  python app.py
+  340  clear
+  341  python app.py
+  342  python app.py
+  343  python app.py
+  344  clear
+  345  python app.py
+  346  ls -l ./data
+  347  ls
+  348  cd ..
+  349  pwd
+  350  ls
+  351  cd loan_qualifier_app
+  352  ls
+  353  mkdir images
+  354  ls
+  355  cd ..
+  356  git status
+  357  git add loan_qualifier_app
+  358  git status
+  359  git commit -m"Updated Readme with how to use guide and screen shots." 
+  360  git push
+  361  git status
+  362  git add loan_qualifier_app
+  363  git status
+  364  git commit -m"Updated Readme image path for screen shots." 
+  365  git status
+  366  git push
+  367  git status
+  368  git add loan_qualifier_app
+  369  git status
+  370  git commit -m"Updated Readme image path for screen shots." 
+  371  git push
+  372  git status
+  373  git add loan_qualifier_app
+  374  git status
+  375  git commit -m"Updated Readme image path for screen shots." 
+  376  git push
+  377  git status
+  378  git add README.md
+  379  git status
+  380  git add loan_qualifier_app
+  381  git status
+  382  git commit -m"Updated Readme with screen shots for How to use the application guide" 
+  383  git push
+  384  pwd
+  385  ls
