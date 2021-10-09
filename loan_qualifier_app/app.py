@@ -125,7 +125,7 @@ def save_qualifying_loans(qualifying_loans):
             result_path=questionary.text("Where would you like to save the CSV ?").ask()
             result_path=result_path+"/bank_loans_list.csv"
             print(result_path)
-            print("loans*****",qualifying_loans)
+            print("*****List of Loans*****",qualifying_loans)
             # call the write to csv fileio function
             # write_to_csv(result_path,qualifying_loans)
             save_csv(result_path,qualifying_loans)
