@@ -31,7 +31,7 @@ def load_csv(csvpath):
 
 
 def write_to_csv(csvpath,data):
-    """ Function to write to a CSV file from path provided.
+    """ Function to write to a CSV file to the parameter path provided at function call.
     
     Args:
         csvpath (Path): The CSV file path to save the file.

@@ -113,15 +113,13 @@ def save_qualifying_loans(qualifying_loans):
         qualifying_loans (list of lists): The qualifying bank loans.
     """
     # @TODO: Complete the usability dialog for savings the CSV Files.
-    # YOUR CODE HERE!
-    
-    # Check if there is 1 or more qualifying loans
+
    # Check if there is 1 or more qualifying loans
     if(len(qualifying_loans)>0):
         print(f"You qualify for {len(qualifying_loans)} loan(s).")
         # collect user response on save results to CSV Yes/No?
         save_to_csv=questionary.confirm("Would you like to save the list of qualified bank(s) and loan(s) to a CSV file?").ask()
-        # save to csv scenario
+        # save to csv option is selected scenario
         if(save_to_csv):
             print(f"Call function to save to csv")
             result_path=questionary.text("Where would you like to save the CSV ?").ask()
@@ -132,7 +130,7 @@ def save_qualifying_loans(qualifying_loans):
             # write_to_csv(result_path,qualifying_loans)
             save_csv(result_path,qualifying_loans)
 
-        # display results on the console screen.
+        # Don't save to CSV, display results on the console screen.
         else:
             print("List of qualified bank loans below ")
             print(qualifying_loans)
