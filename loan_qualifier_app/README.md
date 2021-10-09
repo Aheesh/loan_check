@@ -34,7 +34,7 @@ python appy.py
 ```
 On launching the loan qualifier application, you will be greeted with the following prompts on the command line interface.
 
-![Loan Qualifier Application CLI](Images/1_)
+![Loan Qualifier Application CLI](./images/1_Loan_Qualifier_CLI.png)
 
 Enter the path to upload a CSV file with banks and loans offered.
 
